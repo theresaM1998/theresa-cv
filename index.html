@@ -1,128 +1,288 @@
+
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <title>Mon CV</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV — Simbou Manganga Shirka Andès</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <main>
-        <header>
-            <div class="photo">
-                <img src="images/photo.jpg"  width="100%" height="100%" alt="mon image" >
-            </div>
-
-            <div class="des">
-                <h3>SIMBOU MANGANGA Shirka Andès</h3>
-                <p class="post"> Etudiante Mathématiques Appliquées aux Sciences Sociale</p>
-            </div>
-
-            <div class="right">
-                <p><img src="images/logomail.png" class="info"> mangangaandes8@gmail.com</p>
-                <p><img src="images/logophone.png" class="info"> 066-02-65-21</p>
-                <p><img src="images/logowhat.png" class="info"> 077-39-38-69</p>
-            </div>
-        </header>
-
-        <section class="section-left">
-            <h4>Atouts</h4>
-            <hr class="light">
-
-            <div class="atouts">
-                <div>Travail d'équipe</div>
-                <div>Adaptabilité </div>
-               
-            </div>
-
-            <h4>Diplômes et Formations</h4>
-            <hr class="light">
-
-                <p><b>Baccalauréat C</b><br>
-                    <strong>candidate libre</strong>, Libreville/Gabon
-                </p>
-				<p><b>BEPC</b><br>
-                    <strong>Lycée Evangelique d'Akebe</strong>, Libreville/Gabon
-                </p>
-            </div>
-
-            <h4>Expériences Professionnelles</h4>
-            <hr class="light">
-			<div class="experience">
-
-				
-				<p><b>Directrice Générale</b> -
-					<strong>Manganga Construction, Moanda/Gabon</strong><br>
-					Création et gestion de l'entreprise.
-				</p>
-
-				<p><b>Assistante de Direction</b> -
-					<strong>Icon Service, Moanda/Gabon</strong><br>
-					Gestion administrative.</p>
-			</div>	 
-			 
-        </section>
-
-        <section class="section-right">
-            <h4>Compétences</h4>
-            <hr class="light">
-
-            <div class="skls">
-                <div class="po">
-                    <p>Python </p>
-                    <div class="cool"><div class="inner" style="width:40%"></div></div>
-                </div>
-				<div class="po">
-					<p> Django</p>
-                    <div class="cool"><div class="inner" style="width:30%"></div></div>
-                </div>
-
-                <div class="po">
-                    <p>HTML</p>
-                    <div class="cool"><div class="inner" style="width:50%"></div></div>
-                </div>
-
-                <div class="po">
-                    <p>CSS</p>
-                    <div class="cool"><div class="inner" style="width:40%"></div></div>
-                </div>
-
-                
-            </div>
-
-            <h4>Langues</h4>
-            <hr class="light">
-			<div class="langues">
-
-				<p>Français</p>
-				<div class="cool"><div class="inner" style="width:80%"></div></div>
-			</div>
+ 
+<div class="page">
+  <div class="accent-bar"></div>
+ 
+  <!-- ── HEADER ── -->
+  <header>
+    <div class="header-left">
+ 
+      <!-- PHOTO -->
+      <div class="photo-frame">
+        <img src="photo.jpg" alt="Simbou Manganga Shirka Andès" />
+      </div>
+ 
+      <!-- NOM & TITRE -->
+      <div class="name-block">
+        <div class="name-tag">Curriculum Vitae</div>
+        <h1>Simbou Manganga<br>Shirka Andès</h1>
+        <p class="headline">Étudiante en Mathématiques Appliquées aux Sciences Sociales · Développeuse Web · Entrepreneuriat </p>
+        <div class="availability">Disponible pour des opportunités</div>
+      </div>
+ 
+    </div>
+ 
+    <!-- CONTACTS -->
+    <div class="header-right">
+      <a href="mailto:mangangaandes8@gmail.com" class="contact-item">
+        <span class="contact-dot"></span>
+        mangangaandes8@gmail.com
+      </a>
+      <a href="tel:+24106602652" class="contact-item">
+        <span class="contact-dot"></span>
+        066-02-65-21
+      </a>
+      <a href="https://wa.me/24107739386" class="contact-item" target="_blank">
+        <span class="contact-dot"></span>
+        WhatsApp · 077-39-38-69
+      </a>
+      <a href="https://github.com/theresaM1998" class="contact-item" target="_blank">
+        <span class="contact-dot"></span>
+        github.com/theresaM1998
+      </a>
+    </div>
+  </header>
+ 
+  <!-- ── BODY ── -->
+  <div class="body-grid">
+ 
+    <!-- ════ COLONNE GAUCHE ════ -->
+    <div class="main-col">
+ 
+      <!-- EXPÉRIENCES -->
+      <div class="section">
+        <div class="section-label"><span>Expériences Professionnelles</span></div>
+ 
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-title">Directrice Générale</div>
+            <div class="exp-date">Gabon</div>
+          </div>
+          <div class="exp-company">Manganga Construction · Moanda, Gabon</div>
+          <div class="exp-desc">Création et gestion complète de l'entreprise : supervision des opérations, gestion administrative.</div>
+        </div>
+ 
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-title">Assistante de Direction</div>
+            <div class="exp-date">Gabon</div>
+          </div>
+          <div class="exp-company">Icon Service · Moanda, Gabon</div>
+          <div class="exp-desc">Gestion administrative, organisation de l'agenda de direction, rédaction de documents officiels et coordination interne.</div>
+        </div>
+ 
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-title">Entrepreneuriat </div>
+            <div class="exp-date">2025 – Présent</div>
+          </div>
+          <div class="exp-company">Projets indépendants · Rotterdam, NL</div>
+          <div class="exp-desc">
+            Développement d'une boutique e-commerce francophone (ESHOP) ciblant le marché africain.
+            Gestion de contenu motivationnel sous <strong>#shi_line</strong> sur Facebook.
+          </div>
+          <div class="tags">
+            <span class="tag">E-commerce</span>
+            <span class="tag">Content Creation</span>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- FORMATION -->
 		
-            <h4>Réseaux Sociaux</h4>
-            <hr class="light">
+	  
+      <div class="section">
+        <div class="section-label"><span>Diplômes &amp; Formations</span></div>
 
-            <p><img src="images/logoface.png" class="info">
-                <span>https://www.facebook.com/manganga.theresa</span>
-			<p><img src="images/git.png" class="info">
-                <span>https://github.com/theresaM1998</span>	
-            </p>
+		   <div class="edu-item">
+          <div class="edu-degree"> Lience Mathématiques et Modélisation aux Phénomènes Sociaux (en cours)</div>
+          <div class="edu-school">Université Omar Bongo · Libreville, Gabon</div>
+        </div>
+ 
+        <div class="edu-item">
+          <div class="edu-degree">Baccalauréat Série C (Mathématiques)</div>
+          <div class="edu-school">Candidate libre · Libreville, Gabon</div>
+        </div>
+ 
+        <div class="edu-item">
+          <div class="edu-degree">BEPC</div>
+          <div class="edu-school">Lycée Évangélique d'Akébé · Libreville, Gabon</div>
+        </div>
 
-            <h4>Centres d'intérêt</h4>
-            <hr class="light">
-
-            <div class="interet">
-                <div><b>Naviguer sur Internet</b></div>
-                <div><b>Lecture</b></div>
-                <div><b> Bâtiment</b></div>
-				<div><b> Voyage</b></div>
+		  <div class="edu-item">
+          <div class="edu-degree">Formation en Développement Web &amp; Cryptographie</div>
+          <div class="edu-school">Auto-formation active · 2025 – Présent</div>
+          <div class="tags" style="margin-top:0.5rem;">
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">Python / Django</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">OpenSSL</span>
+            <span class="tag">Cryptographie</span>
+          </div>
+        </div>
+      </div>
+ 
+       
+ 
+      <!-- ATOUTS -->
+      <div class="section">
+        <div class="section-label"><span>Atouts</span></div>
+        <div class="tags">
+          <span class="tag">Travail d'équipe</span>
+          <span class="tag">Adaptabilité</span>
+          <span class="tag">Autonomie</span>
+          <span class="tag">Sens de l'initiative</span>
+          <span class="tag">Rigueur</span>
+        </div>
+      </div>
+ 
+    </div><!-- fin main-col -->
+ 
+    <!-- ════ COLONNE DROITE ════ -->
+    <div class="side-col">
+ 
+      <!-- COMPÉTENCES TECHNIQUES -->
+      <div class="section">
+        <div class="section-label"><span>Compétences</span></div>
+ 
+        <div class="skill-group">
+          <div class="skill-group-title">Développement Web</div>
+ 
+          <div class="skill-row">
+            <div class="skill-name-row">
+              <span class="skill-name">HTML / CSS</span>
+              <span class="skill-pct">60%</span>
             </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:60%; animation-delay:0.1s"></div>
+            </div>
+          </div>
+ 
+          <div class="skill-row">
+            <div class="skill-name-row">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">35%</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:35%; animation-delay:0.2s"></div>
+            </div>
+          </div>
+ 
+          <div class="skill-row">
+            <div class="skill-name-row">
+              <span class="skill-name">Python</span>
+              <span class="skill-pct">55%</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:55%; animation-delay:0.3s"></div>
+            </div>
+          </div>
+ 
+          <div class="skill-row">
+            <div class="skill-name-row">
+              <span class="skill-name">Django</span>
+              <span class="skill-pct">40%</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:40%; animation-delay:0.4s"></div>
+            </div>
+          </div>
+ 
+          <div class="skill-row">
+            <div class="skill-name-row">
+              <span class="skill-name">Git &amp; GitHub</span>
+              <span class="skill-pct">35%</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:35%; animation-delay:0.5s"></div>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- CRYPTO -->
+        <div class="crypto-badge">
+          <div class="crypto-badge-title">Cryptographie · OpenSSL</div>
+          <div class="crypto-items">
+            <div class="crypto-item">Chiffrement symétrique (AES)</div>
+            <div class="crypto-item">Chiffrement asymétrique (RSA)</div>
+            <div class="crypto-item">Fonction de Hachage</div>
+            <div class="crypto-item">Principe de Kerckhoffs</div>
+            <div class="crypto-item">Protocole Diffie-Hellman</div>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- LANGUES -->
+      <div class="section">
+        <div class="section-label"><span>Langues</span></div>
+ 
+        <div class="lang-item">
+          <span class="lang-name">Français</span>
+          <span class="lang-level">Natif</span>
+        </div>
+        <div class="bar-track" style="margin-bottom:1rem;">
+          <div class="bar-fill" style="width:95%; animation-delay:0.5s"></div>
+        </div>
+ 
+        <div class="lang-item">
+          <span class="lang-name">Anglais</span>
+          <span class="lang-level">Notions</span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:20%; animation-delay:0.6s"></div>
+        </div>
+      </div>
+ 
+      <!-- RÉSEAUX SOCIAUX -->
+      <div class="section">
+        <div class="section-label"><span>Réseaux Sociaux</span></div>
+		<img
+			
+        <a href="https://www.facebook.com/manganga.theresa" class="social-link" target="_blank">
+		  <img src="immages/logoface.png" class="social-logo" alt="facebook">
 
-        </section>
-
-    </main>
+          facebook.com/manganga.theresa
+        </a>
+        <a href="https://www.facebook.com/61588662257073/" class="social-link" target="_blank">
+			<img src="immages/logoface.png" class="social-logo" alt="facebook">
+          
+          #shi_line (page)
+        </a>
+        <a href="https://github.com/theresaM1998" class="social-link" target="_blank">
+			<img src="images/git.png class="social-logo" alt ="github">
+          
+          github.com/theresaM1998
+        </a>
+      </div>
+ 
+      <!-- CENTRES D'INTÉRÊT -->
+      <div class="section">
+        <div class="section-label"><span>Centres d'intérêt</span></div>
+        <div class="interests">
+          <span class="interest-tag">Internet &amp; Tech</span>
+          <span class="interest-tag">Lecture</span>
+          <span class="interest-tag">Bâtiment</span>
+          <span class="interest-tag">Voyage</span>
+          <span class="interest-tag">Finance personnelle</span>
+        </div>
+      </div>
+ 
+    </div><!-- fin side-col -->
+ 
+  </div><!-- fin body-grid -->
+</div><!-- fin page -->
+ 
 </body>
-
 </html>
+ 
