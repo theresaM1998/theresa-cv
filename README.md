@@ -7,7 +7,8 @@
  
 ## 🌐 Voir mon CV en ligne
  
-👉 [theresaM1998.github.io/Theresa-CV](https://theresaM1998.github.io/Theresa-CV)
+👉 [theresaM1998.github.io/Theresa-CV](https://theresam1998.github.io/theresa-cv/)
+)
  
 ---
  
